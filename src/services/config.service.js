@@ -2,7 +2,7 @@ angular.module('app').factory('ConfigService', [function() {
 
     var service = {};
 
-    service.apiBase = 'https://quiz-api-de.eu-west-2.elasticbeanstalk.com/';
+    service.apiBase = 'Quizapide-env.eba-srregr8i.eu-west-2.elasticbeanstalk.com';
 
     return service;
 }]);
